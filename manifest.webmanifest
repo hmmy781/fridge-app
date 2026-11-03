@@ -1,0 +1,135 @@
+{
+ "id": "./",
+ "name": "냉장고 털기",
+ "short_name": "냉장고 털기",
+ "description": "냉장고에 있는 재료로 가장 싸게 해 먹을 요리를 추천하고, 모자란 재료는 쿠팡·네이버 최저가로 바로 사러 가요. 몇 인분인지에 맞춰 덜 사게 계산해요.",
+ "lang": "ko",
+ "dir": "ltr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#1E6B48",
+ "theme_color": "#1E6B48",
+ "categories": [
+  "food",
+  "lifestyle",
+  "shopping"
+ ],
+ "launch_handler": {
+  "client_mode": [
+   "navigate-existing",
+   "auto"
+  ]
+ },
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-maskable-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "지금 뭐 먹지",
+   "short_name": "지금 뭐 먹지",
+   "description": "지금 해 먹기 좋은 요리를 골라줘요",
+   "url": "./#now",
+   "icons": [
+    {
+     "src": "icons/sc-now.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "재료 넣기",
+   "short_name": "재료 넣기",
+   "description": "산 재료를 냉장고에 넣어요",
+   "url": "./#add",
+   "icons": [
+    {
+     "src": "icons/sc-add.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "장보기",
+   "short_name": "장보기",
+   "description": "장보기 목록을 열어요",
+   "url": "./#shop",
+   "icons": [
+    {
+     "src": "icons/sc-shop.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "먹은 것 기록",
+   "short_name": "먹은 것 기록",
+   "description": "방금 먹은 걸 기록해요",
+   "url": "./#log",
+   "icons": [
+    {
+     "src": "icons/sc-log.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  {
+   "src": "shots/home.jpg",
+   "sizes": "720x1560",
+   "type": "image/jpeg",
+   "form_factor": "narrow",
+   "label": "있는 재료로 가장 싸게 해 먹을 요리 추천"
+  },
+  {
+   "src": "shots/recipe.jpg",
+   "sizes": "720x1560",
+   "type": "image/jpeg",
+   "form_factor": "narrow",
+   "label": "부족한 재료만 쿠팡·네이버 최저가로 바로"
+  },
+  {
+   "src": "shots/shop.jpg",
+   "sizes": "720x1560",
+   "type": "image/jpeg",
+   "form_factor": "narrow",
+   "label": "몇 인분인지에 맞춰 덜 사는 장보기 목록"
+  },
+  {
+   "src": "shots/fridge.jpg",
+   "sizes": "720x1560",
+   "type": "image/jpeg",
+   "form_factor": "narrow",
+   "label": "재료 양과 유통기한을 한눈에"
+  }
+ ]
+}
